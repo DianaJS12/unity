@@ -1,0 +1,606 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: chartreuse;
+}
+.inline_blocks{
+    background: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.hidden{
+    display: none;
+}
+.inlinefirst{
+    display: flex;
+}
+.logo i{
+    font-size: 30px;
+    color: white;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.column h1{
+    margin: 0;
+    font-size: 15px;
+}
+.column a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 3px;
+    font-size: 10px;
+}
+.inlinesecond{
+    display: flex;
+    justify-content: space-around;
+    width: 26%;
+   
+}
+.inlinesecond i{
+    color: white;
+}
+.inlineicon{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.inlineicon p{
+    margin: 0;
+    color: white;
+}
+.inlinesecond .serdce{
+    border: 1px solid white;
+    padding: 8px 19px;
+    border-radius: 5px;
+  
+}
+.inlinesecond .sign_in{
+    color: black;
+    background: green;
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.inlinesecond .login{
+    color: white;
+    padding: 9px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+.flex_gridblocks{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 70px;
+}
+.flex_text{
+    display: flex;
+    justify-content: space-around;
+}
+.flex_text h1{
+    font-family: 14px;
+    color: white;
+    font-weight: lighter;
+}
+.first_gridblock{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.card1{
+    background: blue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 190px;
+    grid-template-rows: 90px;
+    grid-gap: 50px;   
+}
+.card1 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card2{
+    background: rgb(219, 164, 62);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 190px;
+    grid-template-rows: 90px;
+    grid-gap: 50px;   
+}
+.card2 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card3{
+    background: rgb(219, 72, 62);
+    display: grid;
+    width: 100px;
+    grid-gap: 50px;   
+}
+.card3 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.second_gridblock{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.card4{
+    background: rgb(146, 219, 62);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card4 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card5{
+    background: rgb(62, 219, 198);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card5 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card6{
+    background: rgb(219, 169, 62);
+    display: grid;
+    width: 100px;  
+    grid-template-rows: 90px;
+}
+.card6 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card7{
+    background: rgb(133, 219, 62);
+    display: grid;
+    width: 175px;
+    grid-template-rows: 90px;
+}
+.card7 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card8{
+    background: rgb(219, 72, 62);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card8 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card9{
+    background: rgb(219, 164, 62);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card9 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card10{
+    background: rgb(62, 112, 219);
+    display: grid;
+    width: 175px;
+    grid-template-rows: 90px;
+    display: flex;  
+}
+.card10 p{
+    color: white;
+    padding: 3px;
+}
+.card11{
+    background: rgb(120, 219, 62);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card11 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.first_gridblock1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+.third_gridblock{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+.card12{
+    background: rgb(62, 130, 219);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card12 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card13{
+    background: rgb(62, 219, 180);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card13 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card14{
+    background: rgb(219, 86, 62);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card14 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card15{
+    background: rgb(214, 62, 219);
+    display: grid;
+    width: 100px;
+    grid-template-rows: 90px;
+}
+.card15 i{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.card16{
+    background: rgb(219, 164, 62);
+    display: grid;
+    width: 204px;
+    grid-template-rows: 90px;
+}
+.card16 h1{
+    padding-top: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* MEDIA */
+@media(max-width:1200px){
+   .inlinesecond{
+       display: none;
+   }
+   .hidden{
+       display: block;
+       font-size: 25px;
+       color: white;
+       padding-right: 50px;
+   }
+}
+@media(max-width:1024px){
+    .flex_gridblocks{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:824px){
+    .flex_text h1{
+        font-family: 14px;
+        color: white;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+}
+@media(max-width:504px){
+    .first_gridblock{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background: blue;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 90px;
+        grid-template-rows: 90px;
+        
+    }
+    .card1 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card2{
+        background: rgb(219, 164, 62);
+        width: 100%;
+        display: grid;
+        grid-template-columns: 190px;
+        grid-template-rows: 90px;
+        grid-gap: 50px;   
+    }
+    .card2 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card3{
+        background: rgb(219, 72, 62);
+        display: grid;
+        width: 200px;
+        grid-gap: 50px;   
+    }
+    .card3 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .second_gridblock{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 5px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .card4{
+        background: rgb(146, 219, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card4 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card5{
+        background: rgb(62, 219, 198);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card5 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card6{
+        background: rgb(219, 169, 62);
+        display: grid;
+        width: 200px;  
+        grid-template-rows: 90px;
+    }
+    .card6 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card7{
+        background: rgb(133, 219, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card7 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card8{
+        background: rgb(219, 72, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card8 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card9{
+        background: rgb(219, 164, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card9 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card10{
+        background: rgb(62, 112, 219);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+        display: flex;  
+    }
+    .card10 p{
+        color: white;
+        padding: 3px;
+    }
+    .card11{
+        background: rgb(120, 219, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card11 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .first_gridblock1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+        align-items: center;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .third_gridblock{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        align-items: center;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card12{
+        background: rgb(62, 130, 219);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card12 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card13{
+        background: rgb(62, 219, 180);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card13 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card14{
+        background: rgb(219, 86, 62);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card14 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card15{
+        background: rgb(214, 62, 219);
+        display: grid;
+        width: 200px;
+        grid-template-rows: 90px;
+    }
+    .card15 i{
+        padding-top: 30px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .card16{
+        background: rgb(219, 164, 62);
+        display: grid;
+        width: 204px;
+        grid-template-rows: 90px;
+    }
+    .card16 h1{
+        padding-top: 5px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+}
